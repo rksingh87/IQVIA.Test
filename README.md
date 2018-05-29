@@ -16,5 +16,11 @@ Please follow the step-by-step installation
 2. Make sure you have Visual Studio 2015/2017 with .NET Framework 4.6.1. If not, please install from https://www.visualstudio.com/downloads/.
 3. Once you clone the code from the above git repository, Please open `IQVIA.TweetClient.sln` file in Visual Studio.
 4. Build the Solution, Make Sure that you have internet connection to download all dependencies required for this solution.
-5. Once Build is sucessfull, Please run the application using `F5` Key.
+5. Once Build is sucessfull, Please run the application using `F5` Key. You can find below screen which will fetch all data from API in multiple attempts.
 
+![Image of Console Result](https://github.com/rksingh87/IQVIA.Tweet.Client/blob/master/blob/ConsoleApplicationResultWindow.PNG)
+
+# References
+1. https://guides.github.com/features/mastering-markdown/
+2. https://www.visualstudio.com/downloads/
+3. https://www.nuget.org/
