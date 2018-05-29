@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQVIA.TweetClient", "IQVIA.TweetClient\IQVIA.TweetClient.csproj", "{9425509B-53DF-4781-82FC-7F9A806A78DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{55C8BE6E-109C-435E-94B5-13C259839A78}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQVIA.TweetClient.Test", "IQVIA.TweetClient.Test\IQVIA.TweetClient.Test.csproj", "{A78E4CA0-2059-485C-AEF6-DF1606455522}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9425509B-53DF-4781-82FC-7F9A806A78DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9425509B-53DF-4781-82FC-7F9A806A78DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9425509B-53DF-4781-82FC-7F9A806A78DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9425509B-53DF-4781-82FC-7F9A806A78DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A78E4CA0-2059-485C-AEF6-DF1606455522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A78E4CA0-2059-485C-AEF6-DF1606455522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A78E4CA0-2059-485C-AEF6-DF1606455522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A78E4CA0-2059-485C-AEF6-DF1606455522}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28EDB3FA-B359-415C-A2A1-1942EF619F98}
+	EndGlobalSection
+EndGlobal
