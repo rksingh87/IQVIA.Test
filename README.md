@@ -1,7 +1,8 @@
 # IQVIA Tweet Client
 
 The goal of this application is to provide all tweet data from 2016 to 2017 using https://badapi.iqvia.io/swagger/ API. 
-###### Note: Considering Start Date and End Date provided according to System TimeZone.
+
+###### Note: Considering Start Date and End Date provided according to System TimeZone. Hence, Total Tweet Record will differ in differnt timeZone.
 
 # Installation and working with this app
 Please follow the step-by-step installation
@@ -20,8 +21,13 @@ Please follow the step-by-step installation
 
 ![Image of Console Result](https://github.com/rksingh87/IQVIA.Tweet.Client/blob/master/blob/ConsoleApplicationResultWindow.PNG)
 
-6. Once it completes all iteration to fetch tweet record from 2016 to 2017, It saves all  the record in a file called `TweeterData.txt` (CSV Format) in bin folder of `IQVIA.TweetClient` Project.
-7. You can find Test Cases in `IQVIA.TweetClient.Test` Project.
+6. Finally, Once it completes all iterations, it will display all record count and Checks if there are duplicate tweet data in the collection based on tweet id. 
+
+![Image of Console Final Result](https://github.com/rksingh87/IQVIA.Tweet.Client/blob/master/blob/ConsoleApplicationFinalResult.PNG)
+
+7. To See all tweet record from 2016 to 2017, It saves all  the record in a file called `TweeterData.txt` (CSV Format) in bin folder of `IQVIA.TweetClient` Project.
+
+8. You can find Test Cases in `IQVIA.TweetClient.Test` Project.
 
 # References
 1. https://guides.github.com/features/mastering-markdown/
